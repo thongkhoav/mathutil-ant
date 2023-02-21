@@ -32,7 +32,8 @@ public class MathUtility {
 
         // nếu n = 2..20
         long product = 1; // tích nhân dồn!!!
-        for (int i = 2; i < n; i++) {  // ko nhân phần tử cuối
+        for (int i = 2; i <= n; i++) {  // ko nhân phần tử cuối
+            // sửa lại cho đúng
             product *= i;
         }
 
